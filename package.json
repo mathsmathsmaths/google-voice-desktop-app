@@ -1,6 +1,6 @@
 {
  "name": "voice-desktop-app",
- "version": "1.1.8",
+ "version": "1.2.8",
  "description": "An electron shell wrapper for the google voice app",
  "main": "src/main.js",
  "build": {
@@ -37,12 +37,13 @@
  "author": "jllankfo@ncsu.edu",
  "license": "ISC",
  "dependencies": {
-  "electron-context-menu": "^2.5.0",
-  "electron-store": "^7.0.2",
+  "auto-launch": "^5.0.5",
+  "electron-context-menu": "^3.1.1",
+  "electron-store": "^8.0.0",
   "sass": "^1.32.8"
  },
  "devDependencies": {
-  "electron": "^12.0.2",
+  "electron": "^14.0.0",
   "electron-builder": "^22.10.5"
  }
 }
